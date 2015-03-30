@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5148
+
+Vim-ShowSpaces is a Vim plugin which highlights the indentation characters when
+spaces are used, even when spaces and tabs are mixed. It is useful to enforce
+the use of tabulations in a project instead of spaces, or even worse, mixed
+tabulations and spaces.
+
+The highlighting can be activated on a per filetype basis.
+
+READ THE DOCUMENTATION (or at least the README)! The plugin does not highlight
+anything by default. You need to 'let g:showSpaces=1'  somewhere (preferably inside a
+ftplugin/ local config file).
+
+Sources are available on github: https://github.com/guiniol/vim-showspaces.git
+The project is under BSD-2 clauses license. (See file LICENSE in the archive).
+
